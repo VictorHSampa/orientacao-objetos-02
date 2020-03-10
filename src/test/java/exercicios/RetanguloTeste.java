@@ -59,12 +59,12 @@ public class RetanguloTeste {
     @Test
     public void metodoCalcularArea() {
         Double valorEsperado = 20.0;
-        assertEquals(valorEsperado, q1.calcArea());
+        assertEquals(valorEsperado, r1.calcArea());
     }
 
     @Test
     public void metodoCalcularPerimetro() {
         Double valorEsperado = 18.0;
-        assertEquals(valorEsperado, q1.calcPerimetro());
+        assertEquals(valorEsperado, r1.calcPerimetro());
     }
 }
