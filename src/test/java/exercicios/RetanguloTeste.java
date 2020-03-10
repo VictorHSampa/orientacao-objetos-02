@@ -18,7 +18,7 @@ public class RetanguloTeste {
     }
 
     @Test
-    public void criarObjetoQuadrado() {
+    public void criarObjetoRetangulo() {
         assertNotNull(r1);
     }
 
