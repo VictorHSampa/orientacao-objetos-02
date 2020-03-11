@@ -12,7 +12,7 @@ public class RetanguloTeste {
 
     @BeforeEach
     public void beforeEach(){
-        r1 = new Quadrado();
+        r1 = new Retangulo();
         r1.setBase(4.0);
         r1.setAltura(5.0);
     }
@@ -39,8 +39,8 @@ public class RetanguloTeste {
     }
 
     @Test
-    public void metodoSetBaseCorreto() {
-        r1.setBase(10.0);
+    public void metodoSetAlturaCorreto() {
+        r1.setAltura(10.0);
         assertEquals(10.0, r1.getAltura());
     }
 

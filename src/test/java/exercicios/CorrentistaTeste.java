@@ -35,12 +35,12 @@ public class CorrentistaTeste {
     }
 
     @Test
-    public void presencaAtributoCodigo() {
+    public void presencaAtributoEmail() {
         assertNotNull(c1.getEmail());
     }
 
     @Test
-    public void presencaAtributoCodigo() {
+    public void presencaAtributoTelefone() {
         assertNotNull(c1.getTelefone());
     }
 
