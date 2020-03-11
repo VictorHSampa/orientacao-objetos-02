@@ -57,9 +57,8 @@ public class ContaTeste {
     @Test
     public void metodoSetValorInvalido() {
         Conta conta = new Conta();
-        conta.setNumero(-2);
         Exception exception = assertThrows(IllegalArgumentException.class, () -> conta.setNumero(-2));
-        assertEquals("numero deve ser maior que zero.", exception.getMessage());
+        assertEquals("num deve ser positivo", exception.getMessage());
     }
 
     @Test

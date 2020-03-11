@@ -11,7 +11,7 @@ public class Conta {
 
     public void setNumero(Integer numero){
         if(numero <= 0){
-            throw new IllegalArgumentException("numero deve ser maior que zero.");
+            throw new IllegalArgumentException("num deve ser positivo");
         }
         this.numero = numero;
     }
